@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  display: flex;
+  max-width: 100%;
+  overflow: auto;
+
   table {
     width: 100%;
     border-spacing: 0 0.5rem;

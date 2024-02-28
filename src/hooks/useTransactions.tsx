@@ -43,10 +43,10 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
     
     const { transaction } = response.data;
 
-    setTransactions([
-      ...transactions,
+    setTransactions((prev)=> ([
+      ...prev,
       transaction,
-    ])
+    ]))
   }
 
   return (

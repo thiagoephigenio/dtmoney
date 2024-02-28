@@ -1,12 +1,8 @@
-import { useEffect} from "react";
 import { useTransactions } from '../../hooks/useTransactions';
 import { Container } from "./styles";
 
 export function TransactionsTable() {
   const { transactions } = useTransactions();
-  useEffect(() => {
-    console.log(transactions);
-  })
 
   return (
     <Container>

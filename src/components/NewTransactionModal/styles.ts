@@ -8,6 +8,15 @@ export const Container = styled.form`
     margin-bottom: 2rem;
   }
 
+  .error {
+    color: var(--red);
+  }
+  .input-container {
+    & + .input-container {
+      margin-top: 1rem;
+    }
+  }
+
   input {
     width: 100%;
     padding: 0 1.5rem;
@@ -22,10 +31,6 @@ export const Container = styled.form`
 
     &::placeholder {
       color: var(--text-body);
-    }
-
-    & + input {
-      margin-top: 1rem;
     }
   }
 
@@ -62,8 +67,8 @@ interface RadioBoxProps {
 }
 
 const colors = {
-  green: '#E52e54',
-  red: '#33CC95',
+  red: '#E52e54',
+  green: '#33CC95',
 };
 
 export const RadioBox = styled.button<RadioBoxProps>`
