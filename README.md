@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 Aplicativo de fluxo de caixa simples, desenvolvido em React.
 
 ## Scripts para execução do projeto
