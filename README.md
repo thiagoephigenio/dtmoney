@@ -6,9 +6,9 @@ Aplicativo de fluxo de caixa simples, desenvolvido em React.
 
 Com o projeto clonado, execute os seguintes comandos:
 
-### ```npm install```
+```npm install```
 
-### `npm start`
+```npm start```
 
 Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
 
